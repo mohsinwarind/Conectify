@@ -115,6 +115,9 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
+CSRF_TRUSTED_ORIGINS = [
+    "https://conectify.onrender.com"
+]
 
 
 # Static files (CSS, JavaScript, Images)
