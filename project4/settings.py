@@ -118,7 +118,7 @@ USE_TZ = True
 CSRF_TRUSTED_ORIGINS = [
     "https://conectify.onrender.com"
 ]
-
+CSRF_COOKIE_SECURE = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
